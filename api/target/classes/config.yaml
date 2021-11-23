@@ -1,0 +1,10 @@
+kumuluzee:
+  name: postajalisca-jdbc
+  version: 1.0.0
+  env:
+    name: dev
+  datasources:
+    - jndi-name: jdbc/PostajaliscaDB
+      connection-url: jdbc:postgresql://localhost:5432/postgres
+      username: postgres
+      password: postgres
